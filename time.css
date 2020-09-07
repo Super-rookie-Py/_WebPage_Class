@@ -1,0 +1,73 @@
+/* 시간표 CSV */
+caption{
+    font-size: xx-large;
+    font-weight: bold;
+    color: royalblue;
+}
+table {
+    text-align: center;
+    margin:auto;
+
+}
+.mon:hover {
+    background-color: rgb(253, 131, 131);
+    color: white;
+}
+.tue:hover {
+    background-color: rgb(247, 191, 159);
+    color: white;
+}
+.wed:hover {
+    background-color: rgb(200, 202, 87);
+    color: white;
+}
+.thu:hover {
+    background-color: forestgreen;
+    color: white;
+}
+.fri:hover {
+    background-color: royalblue;
+    color: white;
+}
+.mon {
+    background-color: rgb(255, 102, 102);
+    color: white;
+}
+.tue {
+    background-color: orange;
+    color: white;
+}
+.wed {
+    background-color: rgb(238, 238, 53);
+    color: white;
+}
+.nul {
+    background-color: lightyellow;
+}
+.thu {
+    background-color: limegreen;
+    color: white;
+}
+.fri {
+    background-color: lightskyblue;
+    color: white;
+}
+.time {
+    background-color: rgb(148, 23, 160);
+    color: white;
+}
+.time:hover {
+    background-color: rgb(106, 21, 114);
+    color: white;
+}
+#thead_1 {
+    background-color: royalblue;
+    color: white;
+}
+#thead_2 {
+    background-color: yellowgreen;
+    color: white;
+}
+body {
+    background-color: lightsteelblue;
+}

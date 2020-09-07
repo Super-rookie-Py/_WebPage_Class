@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+    <!--keonwoo Park 2020/09/07-->
+    <head>
+        <title>_박건우CSS_회원가입</title>
+        <style>
+            body {
+                background-color: lightyellow;
+            }
+            fieldset {
+                background-color:rgb(186, 248, 61);
+                margin: auto;
+                width: 600px;
+                border: solid green 3px;
+            }
+            legend {
+                color: green;
+            }
+            div {
+                text-align:center;
+            }
+            input:disabled {background-color: darkgray;}
+            input:enabled {background-color: rgb(74, 197, 127);}
+            input:focus{background-color: olive;}
+            input {
+                color: white;
+            }
+            textarea {
+                background-color : rgb(74, 197, 127);
+                color : white;
+                border: solid white 2px;
+            }
+            optgroup {
+                background-color: lightgoldenrodyellow;
+            }
+        </style>
+    </head>
+    <body>
+        <fieldset>
+            <legend>회원가입</legend>
+            <label for = "name">이름</label>
+            <input type ="text" id = "name" name = "name" value = "홍길동"><br /><br />
+            <label for = "name">주민등록번호</label>
+            <input type = "number"><br /><br />
+            <label for = "name">통신사</label>
+            <select id = "tel" name ="tel">
+                <optgroup label ="통신사">
+                    <option value = "LG" selected>LGU+</option>
+                    <option value = "SKT" selected>SKT</option>
+                    <option value = "KT" selected>KT</option>
+                </optgroup>
+            </select>
+            <label for = "name">전화번호</label>
+            <input type = "number">
+            <button>인증번호 발송</button><br /><br />
+            <label for = "name">인증 번호</label>
+            <input type = "number">
+            <button>인증번호 확인</button><br /><br />
+            <label for = "name">아이디</label>
+            <input type ="text" id = "name" name = "name" value = "keonwoo">
+            <button>중복확인</button><br /><br/>
+            <label for = "password">비밀번호</label>
+            <input type = "password" id = "password" >
+            <label for = "password">비밀번호 확인</label>
+            <input type = "password" id = "password" ><br /><br />
+            <label for = "email">이메일</label>
+            <input type = "email" name = "email"><br /><br />
+            <label for = "adress">우편번호</label>
+            <input type = "number">
+            <button>주소 검색</button><br /><br/>
+            <label for = "detail">상세 주소</label>
+            <input type ="text" name = "name">
+            <input type ="text" disabled = "disabled" name = "name"><br /><br />
+            <textarea name = "article" rows = "5" cols = "80">건의사항</textarea>
+        </fieldset>
+        <br />
+        <div id = "admit">
+            <button>회원가입</button>
+        </div>
+    </body>
+</html>
